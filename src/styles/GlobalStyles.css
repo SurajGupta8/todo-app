@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primaryPurple: #4a90e2;
+  --black-1: #2c3e50;
+  --black-2: #34495e;
+  --bg-1: #f9fafc;
+  --bg-2: #e5ecf6;
+  --bg-3: #dce4ed;
+  --gray-1: #e6e9ef;
+  --gray-2: #ced6e0;
+  --black: #1e272e;
+  --white: #ffffff;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--bg-1);
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
